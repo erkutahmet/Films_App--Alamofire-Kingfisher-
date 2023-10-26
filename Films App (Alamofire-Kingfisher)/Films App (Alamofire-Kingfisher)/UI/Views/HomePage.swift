@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class HomePage: UIViewController {
 
@@ -21,7 +22,9 @@ class HomePage: UIViewController {
         
         _ = homePageVM.filmsList.subscribe(onNext: { list in
             self.filmsList = list
-            self.filmsCollectionView.reloadData()
+            DispatchQueue.main.async {
+                self.filmsCollectionView.reloadData()
+            }
         })
     }
     
@@ -53,8 +56,12 @@ extension HomePage: UICollectionViewDelegate, UICollectionViewDataSource, CellPr
         
         let cell = filmsCollectionView.dequeueReusableCell(withReuseIdentifier: "filmCell", for: indexPath) as! FilmCell
         
-        cell.filmImageView.image = UIImage(named: film.image!)
-        cell.priceLabel.text = "\(film.price!) $"
+        if let url = URL(string: "http://kasimadalan.pe.hu/filmler_yeni/resimler/\(film.resim!)") {
+            DispatchQueue.main.async {
+                cell.filmImageView.kf.setImage(with: url)
+            }
+        }
+        cell.priceLabel.text = "\(film.fiyat!) $"
         
         cell.layer.borderColor = UIColor.lightGray.cgColor
         cell.layer.borderWidth = 0.3
@@ -83,7 +90,7 @@ extension HomePage: UICollectionViewDelegate, UICollectionViewDataSource, CellPr
     
     func addToBasketClicked(indexPath: IndexPath) {
         let film = filmsList[indexPath.row]
-        print("\(film.name!) added to basket!")
+        print("\(film.ad!) added to basket!")
     }
     
 }

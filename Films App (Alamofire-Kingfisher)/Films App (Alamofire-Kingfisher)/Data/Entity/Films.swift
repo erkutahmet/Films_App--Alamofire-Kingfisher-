@@ -7,20 +7,20 @@
 
 import Foundation
 
-class Films {
+class Films: Codable {
     var id: Int?
-    var name: String?
-    var image: String?
-    var price: Int?
+    var ad: String?
+    var resim: String?
+    var fiyat: Int?
     
     init() {
         
     }
     
-    init(id: Int, name: String, image: String, price: Int) {
+    init(id: Int, ad: String, resim: String, fiyat: Int) {
         self.id = id
-        self.name = name
-        self.image = image
-        self.price = price
+        self.ad = ad
+        self.resim = resim
+        self.fiyat = fiyat
     }
 }

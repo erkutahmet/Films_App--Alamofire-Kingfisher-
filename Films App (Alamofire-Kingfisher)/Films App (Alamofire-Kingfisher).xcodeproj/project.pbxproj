@@ -25,6 +25,7 @@
 		DCA233282AE9F7D4000EAF2F /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA233272AE9F7D4000EAF2F /* HomePageViewModel.swift */; };
 		DCA2332B2AE9FB4F000EAF2F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DCA2332A2AE9FB4F000EAF2F /* Alamofire */; };
 		DCA2332E2AE9FBCC000EAF2F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DCA2332D2AE9FBCC000EAF2F /* Kingfisher */; };
+		DCA233322AE9FD2C000EAF2F /* FilmsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA233312AE9FD2C000EAF2F /* FilmsResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		DCA233162AE9E9F8000EAF2F /* DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPage.swift; sourceTree = "<group>"; };
 		DCA233242AE9F771000EAF2F /* FilmsDaoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsDaoRepository.swift; sourceTree = "<group>"; };
 		DCA233272AE9F7D4000EAF2F /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		DCA233312AE9FD2C000EAF2F /* FilmsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmsResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				DCA233112AE9E9B3000EAF2F /* Films.swift */,
+				DCA233312AE9FD2C000EAF2F /* FilmsResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCA232FD2AE9E948000EAF2F /* HomePage.swift in Sources */,
+				DCA233322AE9FD2C000EAF2F /* FilmsResponse.swift in Sources */,
 				DCA233122AE9E9B3000EAF2F /* Films.swift in Sources */,
 				DCA233252AE9F771000EAF2F /* FilmsDaoRepository.swift in Sources */,
 				DCA232F92AE9E948000EAF2F /* AppDelegate.swift in Sources */,
