@@ -26,7 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DCA232F52AE9E948000EAF2F /* Films App (Draft Plan) MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Films App (Draft Plan) MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA232F52AE9E948000EAF2F /* Films App (Alamofire-Kingfisher).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Films App (Alamofire-Kingfisher).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA232F82AE9E948000EAF2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA232FA2AE9E948000EAF2F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCA232FC2AE9E948000EAF2F /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		DCA232EC2AE9E948000EAF2F = {
 			isa = PBXGroup;
 			children = (
-				DCA232F72AE9E948000EAF2F /* Films App (Draft Plan) MVVM */,
+				DCA232F72AE9E948000EAF2F /* Films App (Alamofire-Kingfisher) */,
 				DCA232F62AE9E948000EAF2F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,12 +68,12 @@
 		DCA232F62AE9E948000EAF2F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DCA232F52AE9E948000EAF2F /* Films App (Draft Plan) MVVM.app */,
+				DCA232F52AE9E948000EAF2F /* Films App (Alamofire-Kingfisher).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DCA232F72AE9E948000EAF2F /* Films App (Draft Plan) MVVM */ = {
+		DCA232F72AE9E948000EAF2F /* Films App (Alamofire-Kingfisher) */ = {
 			isa = PBXGroup;
 			children = (
 				DCA232F82AE9E948000EAF2F /* AppDelegate.swift */,
@@ -85,7 +85,7 @@
 				DCA233032AE9E94A000EAF2F /* LaunchScreen.storyboard */,
 				DCA233062AE9E94A000EAF2F /* Info.plist */,
 			);
-			path = "Films App (Draft Plan) MVVM";
+			path = "Films App (Alamofire-Kingfisher)";
 			sourceTree = "<group>";
 		};
 		DCA2330C2AE9E986000EAF2F /* UI */ = {
@@ -151,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DCA232F42AE9E948000EAF2F /* Films App (Draft Plan) MVVM */ = {
+		DCA232F42AE9E948000EAF2F /* Films App (Alamofire-Kingfisher) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCA233092AE9E94A000EAF2F /* Build configuration list for PBXNativeTarget "Films App (Draft Plan) MVVM" */;
+			buildConfigurationList = DCA233092AE9E94A000EAF2F /* Build configuration list for PBXNativeTarget "Films App (Alamofire-Kingfisher)" */;
 			buildPhases = (
 				DCA232F12AE9E948000EAF2F /* Sources */,
 				DCA232F22AE9E948000EAF2F /* Frameworks */,
@@ -163,7 +163,7 @@
 			);
 			dependencies = (
 			);
-			name = "Films App (Draft Plan) MVVM";
+			name = "Films App (Alamofire-Kingfisher)";
 			packageProductDependencies = (
 				DCA2331A2AE9F739000EAF2F /* RxBlocking */,
 				DCA2331C2AE9F739000EAF2F /* RxBlocking-Dynamic */,
@@ -172,7 +172,7 @@
 				DCA233222AE9F739000EAF2F /* RxRelay */,
 			);
 			productName = "Films App (Draft Plan) MVVM";
-			productReference = DCA232F52AE9E948000EAF2F /* Films App (Draft Plan) MVVM.app */;
+			productReference = DCA232F52AE9E948000EAF2F /* Films App (Alamofire-Kingfisher).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -190,7 +190,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DCA232F02AE9E948000EAF2F /* Build configuration list for PBXProject "Films App (Draft Plan) MVVM" */;
+			buildConfigurationList = DCA232F02AE9E948000EAF2F /* Build configuration list for PBXProject "Films App (Alamofire-Kingfisher)" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -206,7 +206,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DCA232F42AE9E948000EAF2F /* Films App (Draft Plan) MVVM */,
+				DCA232F42AE9E948000EAF2F /* Films App (Alamofire-Kingfisher) */,
 			);
 		};
 /* End PBXProject section */
@@ -390,7 +390,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3755NX4L2K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Films App (Draft Plan) MVVM/Info.plist";
+				INFOPLIST_FILE = "Films App (Alamofire-Kingfisher)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -401,7 +401,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Films-App--Draft-Plan--MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Films-App--Alamofire-Kingfisher-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -418,7 +418,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3755NX4L2K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Films App (Draft Plan) MVVM/Info.plist";
+				INFOPLIST_FILE = "Films App (Alamofire-Kingfisher)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -429,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Films-App--Draft-Plan--MVVM";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmeterkut.Films-App--Alamofire-Kingfisher-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -440,7 +440,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DCA232F02AE9E948000EAF2F /* Build configuration list for PBXProject "Films App (Draft Plan) MVVM" */ = {
+		DCA232F02AE9E948000EAF2F /* Build configuration list for PBXProject "Films App (Alamofire-Kingfisher)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCA233072AE9E94A000EAF2F /* Debug */,
@@ -449,7 +449,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCA233092AE9E94A000EAF2F /* Build configuration list for PBXNativeTarget "Films App (Draft Plan) MVVM" */ = {
+		DCA233092AE9E94A000EAF2F /* Build configuration list for PBXNativeTarget "Films App (Alamofire-Kingfisher)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCA2330A2AE9E94A000EAF2F /* Debug */,
