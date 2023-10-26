@@ -23,6 +23,8 @@
 		DCA233232AE9F739000EAF2F /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = DCA233222AE9F739000EAF2F /* RxRelay */; };
 		DCA233252AE9F771000EAF2F /* FilmsDaoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA233242AE9F771000EAF2F /* FilmsDaoRepository.swift */; };
 		DCA233282AE9F7D4000EAF2F /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA233272AE9F7D4000EAF2F /* HomePageViewModel.swift */; };
+		DCA2332B2AE9FB4F000EAF2F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DCA2332A2AE9FB4F000EAF2F /* Alamofire */; };
+		DCA2332E2AE9FBCC000EAF2F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = DCA2332D2AE9FBCC000EAF2F /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +50,9 @@
 			files = (
 				DCA233232AE9F739000EAF2F /* RxRelay in Frameworks */,
 				DCA233212AE9F739000EAF2F /* RxCocoa-Dynamic in Frameworks */,
+				DCA2332E2AE9FBCC000EAF2F /* Kingfisher in Frameworks */,
 				DCA2331F2AE9F739000EAF2F /* RxCocoa in Frameworks */,
+				DCA2332B2AE9FB4F000EAF2F /* Alamofire in Frameworks */,
 				DCA2331B2AE9F739000EAF2F /* RxBlocking in Frameworks */,
 				DCA2331D2AE9F739000EAF2F /* RxBlocking-Dynamic in Frameworks */,
 			);
@@ -170,6 +174,8 @@
 				DCA2331E2AE9F739000EAF2F /* RxCocoa */,
 				DCA233202AE9F739000EAF2F /* RxCocoa-Dynamic */,
 				DCA233222AE9F739000EAF2F /* RxRelay */,
+				DCA2332A2AE9FB4F000EAF2F /* Alamofire */,
+				DCA2332D2AE9FBCC000EAF2F /* Kingfisher */,
 			);
 			productName = "Films App (Draft Plan) MVVM";
 			productReference = DCA232F52AE9E948000EAF2F /* Films App (Alamofire-Kingfisher).app */;
@@ -201,6 +207,8 @@
 			mainGroup = DCA232EC2AE9E948000EAF2F;
 			packageReferences = (
 				DCA233192AE9F739000EAF2F /* XCRemoteSwiftPackageReference "RxSwift" */,
+				DCA233292AE9FB4F000EAF2F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				DCA2332C2AE9FBCB000EAF2F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			productRefGroup = DCA232F62AE9E948000EAF2F /* Products */;
 			projectDirPath = "";
@@ -469,6 +477,22 @@
 				minimumVersion = 6.6.0;
 			};
 		};
+		DCA233292AE9FB4F000EAF2F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+		DCA2332C2AE9FBCB000EAF2F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -496,6 +520,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DCA233192AE9F739000EAF2F /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxRelay;
+		};
+		DCA2332A2AE9FB4F000EAF2F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCA233292AE9FB4F000EAF2F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		DCA2332D2AE9FBCC000EAF2F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DCA2332C2AE9FBCB000EAF2F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
